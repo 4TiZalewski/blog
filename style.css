@@ -1,5 +1,5 @@
 :root {
-  --color-1: #9CA3DB;
+  --color-1: #BCC3F7;
   --color-2: #3C3B46;
   --color-3: #454B66;
   --color-4: #322A26;
@@ -109,8 +109,8 @@ a {
 }
 
 aside li {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 aside h4,
@@ -145,4 +145,9 @@ section figure {
 
 aside ul {
   padding-left: 1rem;
+}
+
+.sources li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
