@@ -13,17 +13,93 @@
       <h1>Blog jak wszystkie inne</h1>
     </header>
     <main>
-      <h2>Tytuł artykułu</h2>
+      <h2>Typy testowania oprogramowania</h2>
       <article>
-        <h3 id="n1">Tytuł nagłówka 1</h3>
-        <p>
-          Jakiś tekst 1
-        </p>
-        <h3 id="n2">Tytuł nagłówka 2</h3>
-        <p>
-          Jakiś tekst 2
-        </p>
+        <section>
+          <h3 id="czym-sa-typy-testowania">Czym są typy testowania?</h3>
+          <p>
+            Testowanie oprogramowania jest dosyć obszernym terminem. Bardzo może się różnić od projektu do projektu.
+            Dlatego przyjęto nazwy typów oprogramowania aby łatwo rozróżnić, co dany test sprawdza lub testuje.
+            Przyjrzymy
+            się teraz jakie typy testów można odnaleźć w dzisiejszych projektach.
+          </p>
+        </section>
+        <section>
+          <h3 id="testy-jednostkowe">1. Testy jednostkowe</h3>
+          <p>
+            Testy jednostkowe są bardzo bliskie kodu zródłowego aplikacji. Często testują poszczególne metody
+            występujące
+            w aplikacji. Są dosyć małe i łatwe w automatyzacji.
+          </p>
+        </section>
+        <section>
+          <h3 id="testy-integracyjne">2. Testy integracyjne</h3>
+          <p>
+            Testy integracyjne sprawdzają czy różne moduły czy usługi używane przez aplikację dobrze działają ze sobą.
+            Przykładowo może sprawdzać interakcje z bazą danych. Takie typu testy są zazwyczaj większe, wolniejsze oraz
+            trudniejsze do zautomatyzowania niż na przykład testy jednostkowe.
+          </p>
+        </section>
+        <section>
+          <h3 id="testy-funkcjonalne">3. Testy funkcjonalne</h3>
+          <p>
+            Testy funkcjonalne sprawdzają tylko wynik aplikacji. Nie weryfikują wewnętrzny stan aplikacji. Różnicą
+            między testami funkcjonalnymi a integracyjnymi jest taka, że przykładowo test integracyjny sprawdziłby czy
+            możesz wykonać zapytanie do bazy danych, gdzie test funkcjonalny oczekuje sprecyzowanych danych zwróconych
+            przez bazę danych i to będzie sprawdzał.
+          </p>
+        </section>
+        <section>
+          <h3 id="testy-kompleksowe">4. Testy kompleksowe</h3>
+          <p>
+            Testy kompleksowe odtwarzają interakcję użytkownika z interfejsem graficznym aplikacji. Sprawdzają czy różne
+            operacje użytkownika działają zgodnie z oczekiwaniami. Testy kompleksowe są bardzo użyteczne, lecz są także
+            skomplikowane oraz trudne do zautomatyzowania.
+          </p>
+        </section>
+        <section>
+          <h3 id="testy-akceptacyjne">5. Testy akceptacyjne</h3>
+          <p>
+            Testy akceptacyjne są testami formalnymi, które wymagają, żeby aplikacja w działała w całości podczas
+            testowania oraz odtwarza ruchy użytkownika. Może także wykonywać różne pomiary i odrzucić zmiany w
+            programie.
+          </p>
+        </section>
+        <section>
+          <h3 id="testy-wydajnosciowe">6. Testy wydajnościowe</h3>
+          <p>
+            Testy wydajnościowe testują jak system działa pod wybranym obciążeniem. Takie testy pomagają sprawdzić
+            stabilność, wydajność, skalowalność w produkcji oraz responsywność aplikacji. Mogą sprawdzić czy aplikacja
+            spełnia wymagania wydajnościowe, znaleźć wąskie gardła itp.
+          </p>
+        </section>
+        <section>
+          <h3 id="testy-dymne">7. Testy dymne</h3>
+          <p>
+            Testy dymne są prostymi testami sprawdzającymi podstawowe funckcjonalności aplikacji. Powinny być szybkie w
+            uruchomieniu oraz upewniać, że wszystkie ważne funkcjonalności programu działają jak należy.
+          </p>
+        </section>
+        <section>
+          <h3 id="czy-potrzebne-sa-testy">Czy potrzebne są testy?</h3>
+          <p>
+            Chociaż nie wszystkie są łatwe do wykonania dla każdego programisty, to przynajmniej kilka z nich może pomóc
+            uniknąć popsutej aplikacji przy wydaniu nowej wersji.
+          </p>
+        </section>
       </article>
+      <section>
+        <h4 id="zrodla">Zródła</h4>
+        <ul>
+          <li><a
+              href="https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing">atlassian.com</a>
+          </li>
+        </ul>
+        <h5>Zdjęcia</h5>
+        <ul>
+          <li><a href="https://indiumsoftware.com">indiumsoftware.com</a></li>
+        </ul>
+      </section>
     </main>
     <aside>
       <ul>
@@ -33,16 +109,56 @@
           </a>
           <ul>
             <li>
-              <h5>Tytuł artykułu</h5>
+              <h5>Typy testowania oprogramowania</h5>
               <ul>
                 <li>
-                  <a href="#n1">
-                    <h6>Tytuł nagłówka 1</h6>
+                  <a href="#czym-sa-typy-testowania">
+                    <h6>Czym są typy testowania?</h6>
                   </a>
                 </li>
                 <li>
-                  <a href="#n2">
-                    <h6>Tytuł nagłówka 2</h6>
+                  <a href="#testy-jednostkowe">
+                    <h6>1. Testy jednostkowe</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#testy-integracyjne">
+                    <h6>2. Testy integracyjne</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#testy-funkcjonalne">
+                    <h6>3. Testy funkcjonalne</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#testy-kompleksowe">
+                    <h6>4. Testy kompleksowe</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#testy-akceptacyjne">
+                    <h6>5. Testy akceptacyjne</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#testy-wydajnosciowe">
+                    <h6>6. Testy wydajnościowe</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#testy-dymne">
+                    <h6>7. Testy dymne</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#czy-potrzebne-sa-testy">
+                    <h6>Czy potrzebne są testy?</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#zrodla">
+                    <h6>Zródła</h6>
                   </a>
                 </li>
               </ul>
