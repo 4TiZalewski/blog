@@ -13,17 +13,170 @@
       <h1>Blog jak wszystkie inne</h1>
     </header>
     <main>
-      <h2>Tytuł artykułu</h2>
+      <h2>Proces testowania oprogramowania</h2>
       <article>
-        <h3 id="n1">Tytuł nagłówka 1</h3>
-        <p>
-          Jakiś tekst 1
-        </p>
-        <h3 id="n2">Tytuł nagłówka 2</h3>
-        <p>
-          Jakiś tekst 2
-        </p>
+        <section>
+          <h3 id="czym-jest-proces-testowania">Czym jest proces testowania?</h3>
+          <p>
+            Testowanie oprogramowania jest wymagające ale także potrzebne aby uniknąć różnych problemów przy
+            wypuszczaniu produktu. Sposób w jaki będzie testowane jakieś oprogramowanie zależy od danego projektu.
+            Będzie się on różnił z jednego projektu na drugi. Jednak są typowe czynności testowe, które bez ich
+            stosowania nie zostaną zrealizowane ustalone dla testowania cele. Takie czynności nazywamy procesem
+            testowym.
+          </p>
+        </section>
+        <section>
+          <figure>
+            <img style="width: 12rem; height: calc(11 / 12 * 12rem);"
+              src="https://istqb-main-web-prod.s3.amazonaws.com/media/original_images/CTFL-AT_R7ebpYS.png"
+              alt="Logo ISTQB">
+          </figure>
+          <h3 id="jak-testowac">Jak testować?</h3>
+          <p>
+            W 1998 utworzono międzynarodową radę ISTQB (International Software Testing Qualifications
+            Board), która standaryzuje i wydaje kwalifikacje dla testerów oprogramowania. Jest to znana i doceniana
+            przez pracodawców na całym świecie kwalifikacja. ISTQB opisuje jak powinien wyglądać proces testowy, dlatego
+            teraz się na tym skupimy.
+          </p>
+        </section>
+        <section>
+          <h3 id="proces-testowania">Proces testowania</h3>
+          <p>
+            ISTQB opisuje taki proces testowy:
+          </p>
+          <ol>
+            <li>Planowanie testów</li>
+            <li>Monitorowanie testów i nadzór nad testami</li>
+            <li>Analiza testów</li>
+            <li>Projektowanie testów</li>
+            <li>Implementacja testów</li>
+            <li>Wykonywanie testów</li>
+            <li>Ukończenie testów</li>
+          </ol>
+          <p>
+            Każdy z tych podpunktów to grupa czynności, które mogą się różnić w zależności od projektu. Teraz przyjrzymy
+            się każdemu z nich.
+          </p>
+        </section>
+        <section>
+          <h3 id="planowanie-testow">1. Planowanie testów</h3>
+          <p>
+            Czynności tutaj polegają na zdefiniowaniu: jaki cel powinny testy osiągnąć? Po tym okreśnione są podejścia
+            jak te cele powinny być przez testy osiągnięte. Przykładowo: jakie techniki testowania użyć, sformułowanie
+            harmonogramu itp.
+          </p>
+        </section>
+        <section>
+          <h3 id="monitorowanie-nadzor-nad-testami">2. Monitorowanie testów i nadzór nad testami</h3>
+          <p>
+            Monitorowanie testów polega na porównywaniu z zaplanowanym i rzeczywistym postępem testowania. Nadzór nad
+            testami polega na podejmowaniu działań aby osiągnąć cele testów. Do wykonywania tych czynności pomocne jest
+            ocena kryterów wyjścia. Może ono obejmować:
+          </p>
+          <ul>
+            <li>Sprawdzenie resultatów testów pod kątem określonych kryterów pokrycia</li>
+            <li>Oszacowanie poziomu jakości modułu lub systemu na podstawie rezultatów</li>
+            <li>Ustalenie czy dalsze testy są konieczne</li>
+          </ul>
+          <p>Często tworzy się przy tym raport o postępie testów, który zawiera informacje o ewentualnych odchyleniach i
+            wynikach testów</p>
+        </section>
+        <section>
+          <h3 id="analiza-testow">3. Analiza testów</h3>
+          <p>
+            Analiza testów ustala co należy przetestować. Obejmować może to:
+          </p>
+          <ul>
+            <li>Analiza podstawy testów</li>
+            <li>Ocena testowalności podstawy testów</li>
+            <li>Ustalenie co powinno być przetestowane</li>
+            <li>Definiowanie warunków testowych dla każdej rzeczy, która ma zostać przetestowana</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="projektowanie-testow">4. Projektowanie testów</h3>
+          <p>
+            Projektowanie testów polega na przekształcaniu warunków testowych w przypadki testowe. Powinno być tutaj
+            znaleziona odpowiedź na pytanie: "Jak testować?". Może to obejmować:
+          </p>
+          <ul>
+            <li>Projektowanie przypadków testowych</li>
+            <li>Identyfikowanie danych testowych niezbędnych do obsługi przypadków testowych</li>
+            <li>Projektowanie środowiska testowego oraz zidentyfikowanie niezbędnych narzędzi do wykonania go</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="implementacja-testow">5. Implementacja testów</h3>
+          <p>
+            Implementacja testów polega na utworzeniu narzędzi do wykonywania testów w produkcji. Powinna być tutaj
+            odpowiedź na pytanie: "Czy mamy wszystko, aby uruchomić testy?". Czynności mogą obejmować:
+          </p>
+          <ul>
+            <li>Opracowanie procedur testowych i określanie ich priorytetów oraz tworzenie skryptów testów
+              automatycznych</li>
+            <li>Utworzenie zestawów testowych</li>
+            <li>Uporządkowanie zestawów testów w harmonogram wykonywania testów</li>
+            <li>Zbudowanie środowiska testowego oraz sprawdzanie czy zostało ono poprawnie skonfigurowane</li>
+            <li>Przygotowanie danych testowych i sprawdzanie, czy zostały one poprawnie załadowane do środowiska</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="wykonywanie-testow">6. Wykonywanie testów</h3>
+          <p>
+            Wykonywanie testów polega na uruchamianiu zestawów testowych zgodnie z harmonogramem wykonywania testów.
+            Może to obejmować:
+          </p>
+          <ul>
+            <li>Zarejestrowanie danych identyfikacyjnych i wersji elementów testowych</li>
+            <li>Wykonywanie testów ręcznie lub przy użyciu narzędzi do wykonywania testów</li>
+            <li>Porównywanie rzeczywistych wyników testów z oczekiwanymi</li>
+            <li>Przeanalizowanie anomalii w celu ustalenia ich prawdopodobnych przyczyn</li>
+            <li>Raportowanie defektów oparte na obserwowanych awariach</li>
+            <li>Zapisanie wyniku testów</li>
+            <li>Powtórzenie czynności testowych w związku z wystąpieniem anomalii</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="ukonczenie-testow">7. Ukończenie testów</h3>
+          <p>
+            Ukończenie testów polega na zebraniu danych pochodzących z testów. Czynności te są zazwyczaj związane z
+            ukończeniem testów. Czynnośni mogą polegać na:
+          </p>
+          <ul>
+            <li>Sprawdzeniu, czy wszystkie raporty o defektach są zamknięte oraz zapisaniu ich w rejestru w odniesieniu
+              do wszelkich defektów, które nie zostały rozwiązane do momentu wykonywania testów</li>
+            <li>Utworzenie sumarycznego raportu z testów</li>
+            <li>Zarchiwizowanie środowiska testowego, danych testowych, skruktury</li>
+            <li>Przekazanie danych innym zespołom, które mogą odnieść z nich użytek</li>
+            <li>Przeanalizowanie zdobytych doświadczeń omawianych na wszystkich etapach projektu w celu ustalenia, jakie
+              zmiany będą konieczne w przypadku przyszłych wydań, projektów</li>
+            <li>Wykorzystanie zebranych informacji do zwiększenia dojrzałości procesu testowego</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="co-moze-to-oznaczac-dla-nas">Co może to oznaczać dla nas?</h3>
+          <p>
+            Dla zwykłego człowieka - nic. Chociaż jest to skierowane do dużych produkcji to dla zwykłego programisty
+            małych projektów może pomóc samemu zapobiegać różnym problemom przy wypuszczaniu kolejnych wersji swoich
+            projektów.
+          </p>
+        </section>
       </article>
+      <section>
+        <h4 id="zrodla">Zródła</h4>
+        <ul>
+          <li><a
+              href="https://getistqb.com/docs/sylabus-poziomu-podstawowego-istqb-2018-wersja-1-01/1-podstawy-testowania/1-4-proces-testowy/">getistqb.com</a>
+          </li>
+          <li><a href="https://www.istqb.org/about-us">istqb.org</a>
+          </li>
+        </ul>
+        <h5>Zdjęcia</h5>
+        <ul>
+          <li><a href="https://istqb.org">istqb.org</a></li>
+          <li><a href="https://etestware.com">etestware.com</a></li>
+        </ul>
+      </section>
     </main>
     <aside>
       <ul>
@@ -33,16 +186,66 @@
           </a>
           <ul>
             <li>
-              <h5>Tytuł artykułu</h5>
+              <h5>Proces testowania oprogramowania</h5>
               <ul>
                 <li>
-                  <a href="#n1">
-                    <h6>Tytuł nagłówka 1</h6>
+                  <a href="#czym-jest-proces-testowania">
+                    <h6>Czym jest proces testowania?</h6>
                   </a>
                 </li>
                 <li>
-                  <a href="#n2">
-                    <h6>Tytuł nagłówka 2</h6>
+                  <a href="#jak-testowac">
+                    <h6>Jak testować?</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#proces-testowania">
+                    <h6>Proces testowania</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#planowanie-testow">
+                    <h6>1. Planowanie testów</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#monitorowanie-nadzor-nad-testami">
+                    <h6>2. Monitorowanie testów i nadzór nad testami</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#analiza-testow">
+                    <h6>3. Analiza testów</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#projektowanie-testow">
+                    <h6>4. Projektowanie testów</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#implementacja-testow">
+                    <h6>5. Implementacja testów</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#wykonywanie-testow">
+                    <h6>6. Wykonywanie testów</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#ukonczenie-testow">
+                    <h6>7. Ukończenie testów</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#co-moze-to-oznaczac-dla-nas">
+                    <h6>Co może to oznaczać dla nas?</h6>
+                  </a>
+                </li>
+                <li>
+                  <a href="#zrodla">
+                    <h6>Zródła</h6>
                   </a>
                 </li>
               </ul>
